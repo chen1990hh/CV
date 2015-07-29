@@ -1,0 +1,100 @@
+.section {
+    text-align: center;
+    font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+    color: #eeeeee;
+}
+.section *{
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font: inherit;
+}
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+    margin: 0.8em 0 0.2em 0;
+    color: #fff;
+    font-family: "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.02em; }
+
+.section h1 { font-size: 2.83em; }
+.section h2 { font-size: 2em; }
+.section h3 { font-size: 1.41em; }
+.section h4 { font-size: 1em;}
+.section p {
+    font-size: 0.7em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.section small {
+    line-height: 3;
+    vertical-align: baseline;
+    color: #CCC;
+    display: inline-block;
+    font-size: 0.6em;
+}
+.section a:not(.image) {
+    color: #13DAEC;
+    text-decoration: none;
+    transition: color 0.15s ease 0s;
+    font-size: inherit;
+}
+.section .l1 {
+    font-size: 2em; }
+
+.section .l1 {
+    font-size: 2em; }
+
+.section .l2 {
+    font-size: 1.5em; }
+
+.section .l3 {
+    font-size: 1.2em; }
+
+.section .l4 {
+    font-size: 1em; }
+
+.section .l5 {
+    font-size: 0.7em; }
+
+.section .l6 {
+    font-size: 0.5em; }
+.section .title {
+    margin-bottom: 1.1em;
+}
+.section .date {
+    color: #CCC;
+}
+.section ul {
+    font-size: 0.7em;
+    margin-bottom: 1em;
+    list-style-type: disc;
+    display: inline-block;
+    text-align: left;
+    margin: 0px 0px 0px 1em;
+}
+.section ul li {
+    list-style-type: square;
+    line-height: 2;
+}
+#name {
+    margin: 0.5em 0px;
+}
+#photo {
+    display: inline-block;
+    width: 256px;
+    height: 256px;
+    border: 10px solid #67949D;
+    border-radius: 50%;
+    margin: 8px 0px;
+    background: none repeat scroll 0% 0% #FFF;
+    transition: all 0.2s linear 0s;
+
+}
