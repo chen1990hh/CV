@@ -96,5 +96,8 @@
     margin: 8px 0px;
     background: none repeat scroll 0% 0% #FFF;
     transition: all 0.2s linear 0s;
-
+}
+.reveal strong, .reveal b {
+    font-weight: 400;
+    color: #90ee90;
 }

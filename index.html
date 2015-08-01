@@ -1,108 +1,110 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<title>陈翔的个人简历</title>
-<link rel="stylesheet" href="css/jquery.fullPage.css">
-<link rel="stylesheet" href="css/reveal.css">
-<link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <title>fullPage.js — 基本演示_dowebok</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/index.css">
 
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="js/jquery.fullPage.min.js"></script>
-<script src="js/reveal.js"></script>
-<script>
-$(function(){
-	$('#dowebok').fullpage({
-		sectionsColor: ['#2B2B2B', '#2B2B2B', '#2B2B2B', '#2B2B2B','#2B2B2B','#2B2B2B'],
-		'navigation': true,
-		'navigationColor':'#d4cece',
-		'navigationTooltips': ['我','技能','项目','教育','英语','More'],
-		'slidesNavigation': true,
-		'loopBottom':true
-	});
-});
-</script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+        $(function(){
+            $('#dowebok').fullpage({
+                sectionsColor: ['#2B2B2B', '#2B2B2B', '#2B2B2B', '#2B2B2B','#2B2B2B','#2B2B2B'],
+                'navigation': true,
+                'navigationColor':'#d4cece',
+                'navigationTooltips': ['我','技能','项目','教育','英语','More'],
+                'slidesNavigation': true,
+                'loopBottom':true
+            });
+        });
+    </script>
 </head>
 
 <body>
 
 <div id="dowebok">
-	<div class="section">
-		<img src="images/" alt="" id="photo"/>
-		<h2 id="name">陈翔</h2>
-		<h4>求职意向：前端开发工程师</h4>
-		<small>最近喜欢的一句话：生活不只是眼前的苟且，还有诗和远方</small>
-		<p><a href="mailto:287725816@qq.com">287725816@qq.com</a></p>
-	</div>
-	<div class="section">
-		<h3 class="title">专业技能</h3>
-		<p>
-			<span class="l4"> XSS </span>
-			<span class="l3"> jQuery </span>
-			<span class="l1"> JavaScript </span>
-			<span class="l4"> Gulp </span>
-		</p>
-		<p>
-			<span class="l4"> requireJS </span>
-			<span class="l2"> Sass </span>
-			<span class="l1"> HTML </span>
-			<span class="l1"> CSS </span>
-			<span class="l2"> BootStrap </span>
-		</p>
-		<p>
-			<span class="l4"> 性能优化 </span>
-			<span class="l4"> Hibernate </span>
-			<span class="l2"> Git </span>
-			<span class="l4"> Java </span>
-			<span class="l4"> SpringMVC </span>
-		</p>
-	</div>
-	<div class="section">
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h3 class="title">项目经验 →</h3>
-				</section>
-				<section data-transition="convex">
-					<h3>国卫远程医疗网站</h3>
-					<small>2015/6--2015/8</small>
-					<p>国家重大专项。基于规则推理的一个系统。</p>
-					<p>使用 drools 作为推理引擎，输入质量缺陷，经过推理得到工艺参数调整方案。使用 SpringMVC、Hibernate 框架，前端使用 <strong>BootStrap、jQuery、JavaScript</strong>。</p>
-					<p>我参与软件设计、推理引擎的研究，并负责所有的前端以及后台 Controller 层的实现。</p>
-				</section>
-				<section data-transition="convex">
-					<h3>data-transition: convex</h3>
-				</section>
-				<section data-transition="convex">
-					<h3>data-transition: convex</h3>
-				</section>
-			</div>
-		</div>
-	</div>
-	<div class="section">
-		<h3 class="title">教育背景</h3>
-		<p>电科科技大学 &nbsp;电子工程学院 &nbsp;硕士</p>
-		<p class="date">2013/09--2016/06</p>
-		<p>电子科技大学 &nbsp;电子工程学院 &nbsp;本科</p>
-		<p class="date">2009/09--2013/06</p>
-	</div>
-	<div class="section">
-		<h3 class="title">英语能力</h3>
-		<ul>
-			<li>CET-6</li>
-			<li>能用英语交流，能阅读英文文档</li>
-		</ul>
-	</div>
-	<div class="section">
-		<h3 class="title">More about me</h3>
-		<p>我是个善于接受新事物，学习、沟通能力强的人。</p>
-		<p>热爱新鲜酷炫的事物和技术，认真做一件事情时很容易沉入其中。</p>
-		<p>身为理科生，除了对技术充满热情以外，也不会忘记追求生活中的美好。</p>
-		<p>喜爱编程、上网、骑车、读书、看电影，音乐，篮球，户外...</p>
-		<p><a href="http://weibo.com/1885404694/">微博</a> | <a href="mailto:287725816@qq.com">邮箱</a>
-		</p>
-		<h4><a href="" target="_blank">下载简历</a></h4>
-	</div>
+    <div class="section">
+        <img src="images/" alt="" id="photo"/>
+        <h2 id="name">陈翔</h2>
+        <h4>求职意向：前端开发工程师</h4>
+        <small>最近喜欢的一句话：生活不只是眼前的苟且，还有诗和远方</small>
+        <p><a href="mailto:287725816@qq.com">287725816@qq.com</a></p>
+    </div>
+    <div class="section">
+        <h3 class="title">专业技能</h3>
+        <p>
+            <span class="l4">W3C 标准 </span>
+            <span class="l3"> jQuery </span>
+            <span class="l1"> JavaScript </span>
+            <span class="l4"> DOM </span>
+        </p>
+        <p>
+            <span class="l4"> AJAX </span>
+            <span class="l2"> HTML5 </span>
+            <span class="l1"> HTML </span>
+            <span class="l1"> CSS </span>
+            <span class="l2"> BootStrap </span>
+        </p>
+        <p>
+            <span class="l4"> 性能优化 </span>
+            <span class="l2"> CSS3 </span>
+            <span class="l4"> 浏览器兼容 </span>
+
+            <span class="l4"> Git </span>
+
+        </p>
+    </div>
+    <div class="section">
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h3 class="title">项目经验 →</h3>
+                </section>
+                <section data-transition="convex">
+                    <h3>国卫远程医疗网站</h3>
+                    <small>2015/6--2015/8</small>
+                    <p>网站主要实现网上看病以及远程视频会诊等功能。</p>
+                    <p>后台使用SpringMVC,前端使用了<strong>Javascript、BootStrap、Jquery</strong>，还使用</p>
+                    <p>了一些HTML5标签和CSS3新特性</p>
+                    <p>我主要参与前端页面的编写，包括了响应式布局、浏览器兼容和一些效果实现</p>
+                </section>
+                <section data-transition="convex">
+                    <h3>data-transition: convex</h3>
+                </section>
+                <section data-transition="convex">
+                    <h3>data-transition: convex</h3>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <h3 class="title">教育背景</h3>
+        <p>电科科技大学 &nbsp;电子工程学院 &nbsp;硕士</p>
+        <p class="date">2013/09--2016/06</p>
+        <p>电子科技大学 &nbsp;电子工程学院 &nbsp;本科</p>
+        <p class="date">2009/09--2013/06</p>
+    </div>
+    <div class="section">
+        <h3 class="title">英语能力</h3>
+        <ul>
+            <li>CET-6</li>
+            <li>能用英语交流，能阅读英文文档</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h3 class="title">More about me</h3>
+        <p>我是个善于接受新事物，学习、沟通能力强的人。</p>
+        <p>热爱新鲜酷炫的事物和技术，认真做一件事情时很容易沉入其中。</p>
+        <p>身为理科生，除了对技术充满热情以外，也不会忘记追求生活中的美好。</p>
+        <p>喜爱编程、上网、骑车、读书、看电影，音乐，篮球，户外...</p>
+        <p><a href="http://weibo.com/1885404694/">微博</a> | <a href="mailto:287725816@qq.com">邮箱</a>
+        </p>
+        <h4><a href="" target="_blank">下载简历</a></h4>
+    </div>
 </div>
 
 
@@ -117,16 +119,16 @@ $(function(){
 
 
 <script>
-	Reveal.initialize({
-		center: true,
-		history: true,
-		minScale: 0.5,
-		maxScale: 1
+    Reveal.initialize({
+        center: true,
+        history: true,
+        minScale: 0.5,
+        maxScale: 1
 
-		// transition: 'slide',
-		// transitionSpeed: 'slow',
-		// backgroundTransition: 'slide'
-	});
+        // transition: 'slide',
+        // transitionSpeed: 'slow',
+        // backgroundTransition: 'slide'
+    });
 </script>
 </body>
 </html>
